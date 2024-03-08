@@ -65,6 +65,155 @@
     </div>
   </div>
   
+  <!-- Tamanho das colunas de 1 até 12 colunas-->
+  <div class="container">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-1"></div>
+      <div class="col-11"></div>
+    </div>
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+    </div>
+  </div>
 
+  <div class="container" id="largura-limitada">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+      <div class="col-4"></div>
+    </div>
+  </div>
+
+  <!-- Limitação de colunas -->
+  <div class="container">
+    <div class="row row-cols-2">
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <div class="row row-cols-2">
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+    <div class="row row-cols-2">
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+  </div>
+
+  <!-- Alinhamento vertical -->
+  <div class="container vertical">
+    <div class="row align-items-end">
+      <div class="col-6"></div>
+      <div class="col-6"></div>
+    </div>
+  </div>
+
+  <div class="container vertical">
+    <div class="row align-items-center">
+      <div class="col-6"></div>
+      <div class="col-6"></div>
+    </div>
+  </div>
+
+  <!-- Alinhamento horizontal -->
+  <div class="container vertical">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-3"></div>
+    </div>
+  </div>
+
+  <div class="container vertical">
+    <div class="row justify-content-end align-items-end">
+      <div class="col-3"></div>
+      <div class="col-3"></div>
+    </div>
+  </div>
+
+  <!-- Alinhamento de item (só na vertical)-->
+  <div class="container vertical">
+    <div class="row ">
+      <div class="col-3"></div>
+      <div class="col-3 align-self-center"></div>
+      <div class="col-3"></div>
+      <div class="col-3 align-self-center"></div>
+    </div>
+  </div>
+
+  <div class="container vertical">
+    <div class="row">
+      <div class="col-4"></div>
+      <div class="col-4 align-self-center"></div>
+      <div class="col-4 align-self-end"></div>
+    </div>
+  </div>
+
+  <!-- Ordem -->
+  <div class="container vertical">
+    <div class="row">
+      <div class="col-3 order-3">3</div>
+      <div class="col-3 order-1">1</div>
+      <div class="col-3 order-4">4</div>
+      <div class="col-3 order-2">2</div>
+    </div>
+  </div>
+
+  <!-- Offset -->
+  <div class="container vertical" id="offset">
+    <div class="row">
+      <div class="col-md-3 offset-md-1"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-3"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-4"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-5"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-6"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-7"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-8"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 offset-md-9"></div>
+    </div>
+  </div>
+
+  <!-- Gutters - Muda o padding máximo é o g5 no "gx" ele muda
+  padding no "gy" ele muda margem "g" muda os dois 
+  (não muito usado)-->
+  <div class="container" id="gutter">
+    <div class="row gx-2">
+      <div class="col">
+        <p>GX</p>
+      </div>
+      <div class="col">
+        <p>GX</p>
+      </div>
+    </div>
+    <div class="row gy-4">
+      <div class="col">
+        <p>GY</p>
+      </div>
+      <div class="col">
+        <p>GY</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
