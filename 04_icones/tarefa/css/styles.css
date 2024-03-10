@@ -1,0 +1,27 @@
+.col {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.col i {
+  margin-right: 10px;
+}
+
+.bi.bi-emoji-smile-fill {
+  font-size: 50px;
+  color: rgb(29, 187, 55);
+}
+
+.bi.bi-x-circle {
+  font-size: 50px;
+  color: rgb(255, 12, 12);
+}
+
+.bi.bi-arrow-counterclockwise {
+  font-size: 50px;
+  color: rgb(90, 90, 90);
+}
